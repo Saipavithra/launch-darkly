@@ -16,3 +16,11 @@ The flask app registers itself with the launch-darkly sdk using production keys 
 Option 1: If the variation returns "world", the user accessing the site would see "Hello, World!"
 Option 2: If the variation returns "ld", the user accessing the site would see "Hello, Launch Darkly!"
 
+**Execute Flask App**
+
+Install Python Flask using pip3 install flask
+
+Run the app using
+
+export FLASK_APP=hello-launch.py
+flask run --host 0.0.0.0
