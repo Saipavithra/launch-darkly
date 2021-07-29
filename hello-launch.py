@@ -5,7 +5,7 @@ from flask import Flask
 import ldclient
 from ldclient.config import Config
 
-ldclient.set_config(Config("sdk-6f69d5f7-f5b7-4743-8a6e-55c272184ae0"))
+ldclient.set_config(Config("xxx"))
 ld_client = ldclient.get()
 #print(ld_client)
 
